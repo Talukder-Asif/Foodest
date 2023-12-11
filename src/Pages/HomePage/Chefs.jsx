@@ -21,10 +21,10 @@ const Chefs = () => {
         </p>
       </div>
 
-      <div className="max-w-7xl m-auto px-3 text-center md:grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="max-w-7xl m-auto px-3 text-center md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-5 lg:gap-10">
         <div className="relative p-4 group hover:shadow-lg">
           <img className="m-auto h-80" src={chef1} alt="" />
-          <div className=" bg-[#ffffff9e] p-4 w-full absolute bottom-10 hidden group-hover:block ">
+          <div className=" bg-[#ffffff9e] p-4 w-full absolute bottom-10 hidden group-hover:block left-0 ">
             <div className=" relative text-left">
               <h3 className="text-[#25292D] text-xl font-bold">
                 Mithcel Starc
@@ -38,7 +38,7 @@ const Chefs = () => {
         </div>
         <div className="relative p-4 group hover:shadow-lg">
           <img className="m-auto h-80" src={chef2} alt="" />
-          <div className=" bg-[#ffffff9e] p-4 w-full absolute bottom-10 hidden group-hover:block ">
+          <div className=" bg-[#ffffff9e] p-4 w-full absolute bottom-10 hidden group-hover:block left-0 ">
             <div className=" relative text-left">
               <h3 className="text-[#25292D] text-xl font-bold">
                 Mithcel Starc
@@ -52,7 +52,7 @@ const Chefs = () => {
         </div>
         <div className="relative p-4 group hover:shadow-lg">
           <img className="m-auto h-80" src={chef3} alt="" />
-          <div className=" bg-[#ffffff9e] p-4 w-full absolute bottom-10 hidden group-hover:block ">
+          <div className=" bg-[#ffffff9e] p-4 w-full absolute bottom-10 hidden group-hover:block left-0 ">
             <div className=" relative text-left">
               <h3 className="text-[#25292D] text-xl font-bold">
                 Mithcel Starc
@@ -66,7 +66,7 @@ const Chefs = () => {
         </div>
         <div className="relative p-4 group hover:shadow-lg">
           <img className="m-auto h-80" src={chef4} alt="" />
-          <div className=" bg-[#ffffff9e] p-4 w-full absolute bottom-10 hidden group-hover:block ">
+          <div className=" bg-[#ffffff9e] p-4 w-full absolute bottom-10 hidden group-hover:block left-0 ">
             <div className=" relative text-left">
               <h3 className="text-[#25292D] text-xl font-bold">
                 Mithcel Starc

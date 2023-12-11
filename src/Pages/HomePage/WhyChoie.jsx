@@ -2,16 +2,28 @@ import GradintText from "../../Component/GradintText";
 import SubTitle from "../../Component/SubTitle";
 import aboutImg from "/src/assets/ChoiceUs.png";
 import tick from "/src/assets/Group 20.svg";
+import vector1 from "/src/assets/Vector2.svg";
+import vector2 from "/src/assets/Vector 3.svg";
 const WhyChoie = () => {
     return (
         <div className="pb-20 max-w-7xl m-auto">
       <div className="hero md:min-h-[500px] max-w-7xl m-auto relative">
         <div className="hero-content flex-col-reverse md:flex-row-reverse">
-          <div className="md:w-5/12 ">
+          <div className="md:w-5/12 relative">
             <img
               src={aboutImg}
               className=""
             />
+            <img
+              src={vector1}
+              className=" absolute top-0 left-0 z-50"
+            />
+            <img
+              src={vector2}
+              className=" absolute bottom-0 right-0 z-50"
+            />
+            
+            
           </div>
           <div className="md:w-7/12">
           <SubTitle Title={"Why Choose US"}></SubTitle>
