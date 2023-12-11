@@ -24,7 +24,7 @@ const PopularProduct = () => {
 
       <div className="max-w-7xl m-auto px-3 text-center md:grid md:grid-cols-2 lg:grid-cols-4 gap-10">
 
-        <div className="mt-5 mb-5 relative abc bg-[#faf7f2] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="mt-5 mb-5 relative abc bg-[#ffffff] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <img className="p-3 rounded-full m-auto" src={pizza} alt="product image" />
           <div className="px-5 pb-7 space-y-2 ">
             <h5 className="text-2xl font-semibold text-center tracking-tight text-gray-900 dark:text-white">
@@ -55,7 +55,7 @@ const PopularProduct = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5 mb-5 relative abc bg-[#faf7f2] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="mt-5 mb-5 relative abc bg-[#ffffff] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <img className="p-3 rounded-full m-auto" src={pizza} alt="product image" />
           <div className="px-5 pb-7 space-y-2 ">
             <h5 className="text-2xl font-semibold text-center tracking-tight text-gray-900 dark:text-white">
@@ -86,7 +86,7 @@ const PopularProduct = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5 mb-5 relative abc bg-[#faf7f2] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="mt-5 mb-5 relative abc bg-[#ffffff] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <img className="p-3 rounded-full m-auto" src={pizza} alt="product image" />
           <div className="px-5 pb-7 space-y-2 ">
             <h5 className="text-2xl font-semibold text-center tracking-tight text-gray-900 dark:text-white">
@@ -117,7 +117,7 @@ const PopularProduct = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5 mb-5 relative abc bg-[#faf7f2] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="mt-5 mb-5 relative abc bg-[#ffffff] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <img className="p-3 rounded-full m-auto" src={pizza} alt="product image" />
           <div className="px-5 pb-7 space-y-2 ">
             <h5 className="text-2xl font-semibold text-center tracking-tight text-gray-900 dark:text-white">

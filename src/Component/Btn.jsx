@@ -6,7 +6,7 @@ const Btn = ({url, btnName}) => {
     <Link to={url}>
         <button
       type="button"
-      className="bg-gradient-to-r from-[#FFB23F] to-[#F86161] hover:from-[#F86161] hover:to-[#FFB23F] text-white px-3 py-2 md:px-5 md:py-3 text-sm md:text-base rounded-lg "
+      className="bg-gradient-to-r from-[#FFB23F] to-[#F86161] hover:from-[#F86161] hover:to-[#FFB23F] text-white px-3 py-2 md:px-4 md:py-3 text-sm md:text-base rounded-lg "
     >
       {btnName}
     </button>
