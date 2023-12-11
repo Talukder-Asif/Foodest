@@ -9,7 +9,7 @@ import { RiAddFill } from "react-icons/ri";
 
 const Chefs = () => {
   return (
-    <div className=" py-20">
+    <div className=" py-10">
       <div className="max-w-7xl m-auto text-center space-y-2 px-3">
         <SubTitle Title={"Team member"}></SubTitle>
         <h2 className="text-4xl text-[#25292d] font-bold">

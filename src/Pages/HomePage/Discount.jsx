@@ -5,7 +5,7 @@ import aboutImg from "/src/assets/Dish.png";
 
 const Discount = () => {
   return (
-    <div className="pb-20 pt-10 max-w-7xl m-auto">
+    <div className="pb-10 pt-10 max-w-7xl m-auto">
       <div className="hero md:min-h-[500px] max-w-7xl m-auto relative">
         <div className="hero-content flex-col-reverse md:flex-row-reverse">
           <div className="md:w-5/12 ">
