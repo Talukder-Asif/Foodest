@@ -1,13 +1,12 @@
-import Btn from "../../Component/Btn";
 import GradintText from "../../Component/GradintText";
 import SubTitle from "../../Component/SubTitle";
-import aboutImg from "/src/assets/AboutUs.png";
-import tick from "/src/assets/tick.svg";
-const About = () => {
-  return (
-    <div className="pb-20 max-w-7xl m-auto">
+import aboutImg from "/src/assets/ChoiceUs.png";
+import tick from "/src/assets/Group 20.svg";
+const WhyChoie = () => {
+    return (
+        <div className="pb-20 max-w-7xl m-auto">
       <div className="hero md:min-h-[500px] max-w-7xl m-auto relative">
-        <div className="hero-content flex-col-reverse md:flex-row">
+        <div className="hero-content flex-col-reverse md:flex-row-reverse">
           <div className="md:w-5/12 ">
             <img
               src={aboutImg}
@@ -15,11 +14,11 @@ const About = () => {
             />
           </div>
           <div className="md:w-7/12">
-          <SubTitle Title={"About Us"}></SubTitle>
+          <SubTitle Title={"Why Choose US"}></SubTitle>
             <h1 className=" text-2xl mt-2 lg:text-4xl text-[#25292D] font-bold">
-              We allways Provide <GradintText text={"Quality"}></GradintText>{" "}
+            Why Choose US <GradintText text={"Foodest food"}></GradintText>{" "}
               <br />
-              Food for your
+              service Deliver
             </h1>
             <p className="py-6 font1 font-medium">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -35,8 +34,7 @@ const About = () => {
                 </figure>
                 <div className="md:pl-5">
                   <h2 className="text-lg text-[#25292D] font-bold">
-                    Natural products for lovers of healthy food.
-                  </h2>
+                  Our Product                  </h2>
                   <p className="text-[#666] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida consequat,</p>
                 </div>
               </div>
@@ -46,15 +44,21 @@ const About = () => {
                 </figure>
                 <div className="md:pl-5">
                   <h2 className="text-lg text-[#25292D] font-bold">
-                    Natural products for lovers of healthy food.
-                  </h2>
+                  Our Advantage                  </h2>
                   <p className="text-[#666] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida consequat,</p>
                 </div>
               </div>
-             
-                <div>
-                <Btn btnName={"Order Now"}></Btn>
+              <div className="card md:card-side p-5 bg-base-100 shadow-xl rounded">
+                <figure>
+                  <img src={tick} alt="Movie" />
+                </figure>
+                <div className="md:pl-5">
+                  <h2 className="text-lg text-[#25292D] font-bold">
+                  Service & Support                  </h2>
+                  <p className="text-[#666] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida consequat,</p>
                 </div>
+              </div>
+
 
 
 
@@ -63,7 +67,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default About;
+export default WhyChoie;
